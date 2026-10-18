@@ -1,7 +1,12 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
 
-const element = <h1>Hello world</h1>;
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css"
+
+import App from "./app";
+
 
 const root = createRoot(document.getElementById("root"));
-root.render(element);
+
+root.render(<App/>);
