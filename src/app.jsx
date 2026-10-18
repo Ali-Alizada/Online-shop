@@ -10,9 +10,10 @@ class App extends Component {
             <React.Fragment>
                 <Navbar/>
                 <div className="product-container">
-                    <Product/>
-                    <Product/>
-                    <Product/>
+                    <Product image="headphon.jpg" description="Eine Moderne und die kosten günstige, Kopfhörer mit Blutooth" title="kopfhörer bluetooth"/>
+                    <Product image="firmbee-mobile.jpg" description="Eine Moderne und die kosten günstige, ohne Blutooth aber mit sanfte und fexibele kabel" title="kopfhörer"/>
+                    <Product image="keyboard.jpg" description="Eine Moderne und die kosten günstige, Mechnicke und ergonomische Tastatur mit 7 LED Fatben" title="Tastatur"/>
+                    <Product image="powerbank.jpg" description="Eine Moderne und die kosten günstige, langslabige und schnell aufladbare Power Bank" title="Power Bank"/>
                 </div>
                 
             </React.Fragment>
