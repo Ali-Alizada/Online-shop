@@ -1,11 +1,27 @@
-
+body{
+    width: 100%;
+    height: 100vh;
+}
 .product-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
     padding: 0 32px;
     gap: 32px;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 60px;
+    padding-right: 32px;
+}
+
+.shopping-card{
+    width: 20vw;
+    /* color: coral; */
+}
+
+.shopping-card h2{
+    display: flex;
+    justify-content: center;
 }
 
 .card{
